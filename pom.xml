@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.geedys</groupId>
+    <artifactId>geedysite</artifactId>
+    <version>1.0.0</version>
+    <modules>
+        <module>geedysite-core</module>
+        <module>geedysite-webjars</module>
+        <module>geedysite-web</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <name>Geedysite</name>
+    <description>基于Spring Boot 2.x的Java快速开发平台</description>
+
+    <organization>
+        <name>Geedysite</name>
+        <url>http://geedysite.com</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <email>resigshy@gmail.com</email>
+            <name>geedys</name>
+            <organization>geedys.org</organization>
+            <organizationUrl>http://github.com/geedys</organizationUrl>
+        </developer>
+    </developers>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.0.RELEASE</version>
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <pagehelper.version>5.1.2</pagehelper.version>
+    </properties>
+
+    <dependencies>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>
